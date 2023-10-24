@@ -1,0 +1,29 @@
+body {
+    background-color:#123;
+    margin:0;
+    position:fixed;
+}
+center {
+    background-color:lightblue;
+    height:240px;
+}
+img {
+  transform: translate(-420px, -480px)     
+             scale(.2);
+}
+#reflect {
+/*transform:matrix(a, c,b, d, tx, ty);*/
+  transform:
+        matrix(.2, 0,0, -.2,-420,-1468);
+  opacity:.3;
+}
+#trns {
+  position:absolute;
+  top:520px;
+  left:20px;
+  width:320px;
+  color:lightgrey;
+}
+#range {
+  width:250px;
+}
